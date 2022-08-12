@@ -60,3 +60,45 @@
   height: 324px;
   width: 100%;
 }
+
+.contact-block {
+  max-width: 177px;
+  width: 100%;
+  display: flex;
+  margin-top: 95px;
+}
+.big-contact {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+}
+.small-block {
+  max-width: 130px;
+  width: 100%;
+  display: flex;
+  margin-top: 14px;
+}
+.home-block {
+  display: flex;
+}
+.home {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.divider {
+  display: flex;
+  margin-right: 16.5px;
+  margin-left: 14.5px;
+}
+.small-contact-block {
+  display: flex;
+}
+.small-contact {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
