@@ -1,0 +1,35 @@
+@media (max-width: 1088px) {
+  .image {
+    width: 30%;
+  }
+  .image img {
+    width: 100%;
+  }
+  .navigation {
+    width: 60%;
+  }
+  .footer-block {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer-wrapper {
+    height: auto;
+  }
+  .main-right-block {
+    max-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .first-block {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-icons {
+    justify-content: space-between;
+  }
+}

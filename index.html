@@ -9,18 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <title>Project 9</title>
     <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
   </head>
   <body>
-    <div class="header-image">
-      <img class="image" src="images/header-image.jpg" alt="header-image" />
-    </div>
-    <div class="black-wrapper">
-      <img class="black-image" src="images/black.png" alt="black">
-    </div>
-    <header class="header">
-      <div class="container">
+    <header class="background-image">
+      <div class="padding">
         <div class="header-wrapper">
           <div class="header-logo">
             <a class="main-logo" href="index.html">Zetta Hotels</a>
@@ -32,7 +27,7 @@
               </li>
               <li class="nav-li">
                 <a class="nav-item" href="#">Rooms</a>
-                <a href="#"><img class="drop-down" src="images/chevron-down.svg" alt="down" />
+                <a href="#"><img class="drop-down" src="img/chevron-down.svg" alt="down" />
               </li>
               <li class="nav-li">
                 <a class="nav-item" href="#">Restaurant</a>
@@ -56,7 +51,7 @@
           <div class="home-block">
           <a class="home" href="#">Home</a></div>
           <div class="divider">
-          <img src="images/Line 6.jpg" alt="divider">
+          <img src="img/Line 6.png" alt="divider">
           </div>
           <div class="small-contact-block">
           <a class="small-contact" href="#">Contact</a>
@@ -65,11 +60,14 @@
       </div>
     </header>
     <section>
-    <div>
-      <div class="map">
-        <img class="map-image" src="images/Group 66.jpg" alt="map">
-      </div>
-    </div>
+      <div class="map-container">
+        <div class="map">
+           <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.293595384526!2d-80.84801148490185!3d35.224060780303425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a024bc5716dd%3A0x709e0e7838b9b467!2sLevine%20Museum%20of%20the%20New%20South!5e0!3m2!1sen!2sge!4v1660307901514!5m2!1sen!2sge"
+               style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="map-image"></iframe>
+        </div>
+     </div>
     </section>
     <section>
       <div class="section1-header">
@@ -106,16 +104,149 @@
                 <input class="input-form" type="email" id="email" name="email" placeholder="Email">
               </form>
             </div>
-            <div class="small-wrapper">
-              <button class="button-form" type="submit">Send
-              <img src="images/send.svg" alt="send">
-              </button>
-            </div>
+            <button class="btn">Send<i class="fa-solid fa-paper-plane"></i></button>
           </div>
         </div>
       </div>
-      <div>
-      </div>
     </section>
+      <div class="contact-box">
+        <div class="blue-circle">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+        </div>
+        <div class="blue-circle">
+          <i class="fa-solid fa-phone contact-icon"></i>
+       </div>
+       <div class="blue-circle">
+          <i class="fa-solid fa-location-dot contact-icon"></i>
+       </div>
+      </div>
+      <div class="blue-contact-wrapper">
+        <div class="contact-info">
+           <p class="contact-sub">Email</p>
+           <p class="contact-description">
+              example@yahoo.com
+           </p>
+           <p class="contact-description">
+              exampleemail2@yahoo.com
+           </p>
+        </div>
+        <div class="contact-info">
+           <p class="contact-sub">Phone</p>
+           <p class="contact-description">
+              +0 320 422 4254
+           </p>
+           <p class="contact-description">
+              +0 342 552 523
+           </p>
+        </div>
+        <div class="contact-info">
+           <p class="contact-sub">Location</p>
+           <p class="contact-description">
+              Main Str Chicago Ilinois
+           </p>
+           <p class="contact-description">
+              Main Street New York City
+           </p>
+        </div>
+     </div>
+     <div class="section2-header">
+      <div class="header3">
+        <h1 class="header-contact3">Photos</h1>
+      </div>
+      <div class="header4">
+        <h2 class="header-contact4">See our latest photos
+from restaurant and hotel</h2>
+      </div>
+    </div>
+    <div class="photo-container">
+      <div class="image-block">
+         <div class="image">
+            <img src="img/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png" image">
+         </div>
+         <div class="image">
+            <img src="img/manuel-moreno-DGa0LQ0yDPc-unsplash.png" alt="image">
+         </div>
+         <div class="image">
+            <img src="img/rhema-kallianpur-jbJ-_hw2yag-unsplash.png" alt="image">
+         </div>
+      </div>
+   </div>
+   <footer>
+    <div class="footer-wrapper">
+    <div class="footer-container">
+        <div class="footer-block">
+          <div class="first-block">
+            <h2 class="footer-logo">Zetta Hotels</h2>
+            <p class="footer-text">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+            <div class="footer-icons">
+              <div class="logo">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+              <div class="logo">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="logo">
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="main-right-block">
+            <div class="second-block">
+            <h3 class="small-footer-logo">Useful links</h3>
+            <ul class="ft-ul">
+              <li class="ft-li">
+                <a class="second-ft" href="#">Blog</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">Rooms</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">Gift Card</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">Testimonials</a>
+              </li>
+            </ul>
+            </div>
+            <div class="third-block">
+            <h3 class="small-footer-logo">Privacy</h3>
+            <ul class="ft-ul">
+              <li class="ft-li">
+                <a class="second-ft" href="#">Career</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">About Us</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">Contact Us</a>
+              </li>
+              <li class="ft-li">
+                <a class="second-ft" href="#">Services</a>
+              </li>
+            </ul>
+            </div>
+            <div class="fourth-block">
+              <h5 class="small-footer-logo">Contact Info</h5>
+              <ul class="last-ul">
+                 <li class="ft-li2">
+                    <a class="second-ftr" href="#"><i class="fa-solid fa-envelope log"></i>example@yahoo.com</a>
+                 </li>
+                 <li class="ft-li2">
+                    <a class="second-ftr" href="#"><i class="fa-solid fa-phone log"></i>+0 320 422 4254</a>
+                 </li>
+                 <li class="ft-li2">
+                    <a class="second-ftr" href="#"><i class="fa-solid fa-location-dot log"></i>Main Str Chicago Ilinois</a>
+                 </li>
+              </ul>
+           </div>
+          </div>  
+        </div>
+        <div class="ft-copyright">
+          <p class="copyright">Copyright ©2020 All rights reserved | This template is made with love by <a class="second-ft" href="#">Marian</a></p>
+          <a href="#" class="copyright-site">www.portfolioname.com</a>
+         </div>
+    </div>
+    </div>
+   </footer>
   </body>
 </html>
