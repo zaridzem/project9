@@ -150,6 +150,7 @@ body {
 }
 /* input forms */
 .input-form {
+  margin-bottom: 16px;
   max-width: 352px;
   width: 100%;
   height: 60px;
@@ -159,40 +160,33 @@ body {
 }
 .btn {
   display: flex;
-  max-width: 352px;
+
   width: 100%;
   height: 60px;
   background-color: #5863f8;
   border: none;
   color: white;
   font-size: 14px;
-  margin-top: 16px;
   padding-top: 20px;
   padding-left: 145px;
 }
 .fa-paper-plane {
-  display: flex;
-  margin-left: 10.4px;
+  margin-left: 10.5px;
 }
 
 .btn:hover {
   cursor: pointer;
   background-color: RoyalBlue;
 }
-.main-input-wrapper {
+.input-wrapper {
   display: flex;
-  max-width: 448px;
+  flex-direction: column;
+  max-width: 352px;
   width: 100%;
   margin-top: 50px;
   margin-left: 16px;
 }
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-left: 16px;
-  max-width: 448px;
-  width: 100%;
-}
+
 .input-form::placeholder {
   color: #cecece;
   font-size: 13px;
@@ -206,7 +200,7 @@ body {
 }
 .textarea-wrapper {
   display: flex;
-  max-width: 900px;
+  max-width: 720px;
   width: 100%;
   margin-top: 50px;
   margin-left: 139px;
@@ -223,9 +217,9 @@ body {
 .textarea-form:focus {
   outline: none;
 }
-.contant-input-wraper {
+.contact-input-wraper {
   display: flex;
-  max-width: 1600px;
+  max-width: 1366px;
   width: 100%;
 }
 
@@ -251,7 +245,7 @@ body {
 
 .blue-contact-wrapper {
   display: flex;
-  justify-content: space-aro;
+  justify-content: space-around;
 }
 .contact-info {
   max-width: 362px;

@@ -110,4 +110,27 @@
   .copyright {
     font-size: 13px;
   }
+  .textarea-wrapper {
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 15px;
+  }
+  .contact-input-wraper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn {
+    padding-left: 145px;
+  }
+  .blue-circle {
+    display: none;
+  }
+  .blue-contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
