@@ -251,7 +251,7 @@ body {
 
 .blue-contact-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-aro;
 }
 .contact-info {
   max-width: 362px;
