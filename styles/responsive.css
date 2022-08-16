@@ -1,10 +1,8 @@
-@media (max-width: 1088px) {
-  .image {
+@media (max-width: 1072px) {
+  .image-block {
     width: 30%;
   }
-  .image img {
-    width: 100%;
-  }
+  /* 
   .navigation {
     width: 60%;
   }
@@ -31,5 +29,5 @@
   }
   .footer-icons {
     justify-content: space-between;
-  }
+  } */
 }
