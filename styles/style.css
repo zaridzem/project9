@@ -4,13 +4,12 @@ body {
 .padding {
   padding-top: 30px;
 }
-
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   max-width: 1366px;
   width: 80%;
-  left: 139px;
+  margin: 0 auto;
   position: relative;
 }
 .burger-bar {
@@ -299,11 +298,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.image {
-  max-width: 352px;
-  height: 352px;
-  display: block;
-}
+
 /* footer */
 .footer-wrapper {
   width: 100%;
